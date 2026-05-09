@@ -2,6 +2,16 @@
 
 This repository contains Graph Data Structure concepts and interview problems in Java.
 
+🌳 Breadth-First Search (BFS) 
+
+![BFS Traversal](https://upload.wikimedia.org/wikipedia/commons/4/46/Animated_BFS.gif)
+
+---
+
+🌳 Depth-First Search (DFS)  
+
+![DFS Traversal](https://upload.wikimedia.org/wikipedia/commons/7/7f/Depth-First-Search.gif)
+
 ---
 
 ## Topics Covered
