@@ -1,176 +1,61 @@
-📘 Graph, BFS & DFS
-📌 Overview
-This repository explains core concepts of:
+# Graph Guide 🚀
 
+This repository contains Graph Data Structure concepts and interview problems in Java.
 
-Graph Data Structure
+---
 
+## Topics Covered
 
-Breadth-First Search (BFS)
+- Graph Basics
+- BFS Traversal
+- DFS Traversal
+- Directed Graph
+- Undirected Graph
+- Steps By Knight Problem
+- Shortest Path Concepts
 
+---
 
-Depth-First Search (DFS)
+## Folder Structure
 
+```text
+BFS/
+DFS/
+StepsByKnight/
+Images/
+```
 
+---
 
-🧠 What is a Graph?
-A Graph is a data structure used to represent relationships between different objects.
+## BFS Example
 
+```java
+queue.offer(start);
+```
 
-Vertex (Node) → Represents an entity
+BFS uses Queue and explores level by level.
 
+---
 
-Edge → Connection between nodes
+## DFS Example
 
+```java
+dfs(node);
+```
 
-👉 Graph = Nodes + Connections
+DFS uses recursion and explores depth first.
 
-🌍 Real-Life Examples
+---
 
+## Steps By Knight
 
-Social Networks (friends, followers)
+Uses:
+- BFS
+- 2D Coordinates
+- Shortest Path
 
+---
 
-Google Maps (shortest path between locations)
+## Author
 
-
-Computer Networks (routers and connections)
-
-
-Flight routes (cities connected by flights)
-
-
-
-🔹 Types of Graphs
-1. Directed vs Undirected
-
-
-Undirected Graph → Connection works both ways (A — B)
-
-
-Directed Graph → One-way connection (A → B)
-
-
-
-2. Weighted vs Unweighted
-
-
-Weighted Graph → Edges have cost (distance, time)
-
-
-Unweighted Graph → All edges are equal
-
-
-
-📊 Graph Representation
-Adjacency List (Most Common)
-
-
-Each node stores a list of its neighbors
-
-
-Efficient for most problems
-
-
-Space complexity: O(V + E)
-
-
-
-🔁 Breadth-First Search (BFS)
-🌊 Concept
-
-
-Traverses graph level by level
-
-
-Visits all neighbors before going deeper
-
-
-Uses a Queue (FIFO)
-
-
-
-🎯 Use Cases
-
-
-Finding shortest path in unweighted graphs
-
-
-Level-order traversal
-
-
-Minimum steps problems
-
-
-
-⚙️ Complexity
-
-
-Time: O(V + E)
-
-
-Space: O(V)
-
-
-
-🌳 Depth-First Search (DFS)
-🌿 Concept
-
-
-Goes deep first, then backtracks
-
-
-Explores one path completely before moving to another
-
-
-Uses recursion or stack
-
-
-
-🎯 Use Cases
-
-
-Path finding
-
-
-Cycle detection
-
-
-Connected components
-
-
-
-⚙️ Complexity
-
-
-Time: O(V + E)
-
-
-Space: O(V)
-
-
-
-⚔️ BFS vs DFS
-FeatureBFSDFSTraversalLevel-wiseDepth-wiseData StructureQueueStack/RecursionBest ForShortest pathDeep explorationBehaviorExpands like a waveGoes deep then backtracks
-
-🎯 Key Concepts
-
-
-Always track visited nodes to avoid infinite loops
-
-
-BFS guarantees shortest path in unweighted graphs
-
-
-DFS is useful for exploring all possible paths
-
-
-
-🚀 Summary
-👉
-Graphs are powerful for modeling relationships, and BFS & DFS are the main techniques to traverse them efficiently.
-
-⭐ Author
 Neelu Sahai
-
-
