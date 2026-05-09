@@ -14,18 +14,6 @@ This repository contains Graph Data Structure concepts and interview problems in
 
 ---
 
-## Topics Covered
-
-- Graph Basics
-- BFS Traversal
-- DFS Traversal
-- Directed Graph
-- Undirected Graph
-- Steps By Knight Problem
-- Shortest Path Concepts
-
----
-
 ## Folder Structure
 
 ```text
