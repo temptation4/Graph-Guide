@@ -38,6 +38,7 @@ public class Main {
         // BFS loop (runs until queue becomes empty)
         while (!queue.isEmpty()) {
 
+
             // Remove front element from queue
             Cell curr = queue.poll();
 
