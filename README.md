@@ -16,6 +16,6 @@ This repository includes:
 > 🚀 **Want detailed explanations instead of just code?**
 >
 > **Explore the Discussion:**  
-> [https://github.com/temptation4/Graph-Guide/wiki](https://github.com/temptation4/Graph-Guide/discussions/1)
+> [https://github.com/temptation4/Graph-Guide](https://github.com/temptation4/Graph-Guide/discussions/1)
 
 ⭐ If this repository helps you, consider giving it a star!
