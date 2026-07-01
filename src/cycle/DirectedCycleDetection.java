@@ -2,6 +2,25 @@ package cycle;
 
 import java.util.*;
 
+/*
+Problem:
+Detect Cycle in a Directed Graph
+
+Approach:
+- Use Depth First Search (DFS).
+- Maintain two boolean arrays:
+  1. visited[]     -> Tracks all visited nodes.
+  2. pathVisited[] -> Tracks nodes in the current DFS recursion path.
+- If a node is encountered that is already present in the current recursion path,
+  a back edge exists, which means the graph contains a cycle.
+
+Time Complexity:
+O(V + E)
+
+Space Complexity:
+O(V)
+*/
+
 public class DirectedCycleDetection {
 
     // DFS function
